@@ -1,0 +1,6 @@
+:root{
+  --var-cor-fundo: hsl(47, 88%, 63%);
+  --var-cor-fundo-secundario: hsl(0, 0%, 100%);
+  --var-cor-texto: hsl(0, 0%, 42%);
+  --var-cor-bordas: hsl(0, 0%, 7%);
+}
