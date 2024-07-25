@@ -1,0 +1,21 @@
+@media screen and (min-width: 375px) and (max-width:600px){
+  section{
+    height: 68vh;
+    width: 80vw;
+  }
+  #container_information{
+    width: 75vw;
+  }
+  #image_yellow{
+    margin-top: 5%;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1060px){
+  #container_information{
+    width: 40vw;
+  }
+  #image_yellow{
+    margin-top: 5%;
+  }
+}

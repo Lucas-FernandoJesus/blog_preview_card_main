@@ -1,5 +1,4 @@
 @import url("./variaveis.css");
-@import url("./media.css");
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 *{
@@ -24,6 +23,8 @@ section{
   background-color: var(--var-cor-fundo-secundario);
   padding: 16px;
   border-radius: 16px;
+  border: 1px solid var(--var-cor-bordas);
+  border-width: 1px 10px 10px 1px;
 }
 
 #container_information{
@@ -56,7 +57,7 @@ h1{
 
 h2{
   background-color: var(--var-cor-fundo);
-  width: 4vw;
+  width: 86px;
   margin: 16px 0 16px 0;
   font-size: 16px;
   font-weight: 900;
@@ -72,4 +73,9 @@ p{
 
 .attribution{
   text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: var(--var-cor-bordas);
 }
